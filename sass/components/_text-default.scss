@@ -1,0 +1,85 @@
+/*TEXT*/
+.text-default {
+  &__left {
+    text-align: left !important;
+  }
+  &__right {
+    text-align: right !important;
+  }
+  &__center {
+    text-align: center !important;
+  }
+  &__justify {
+    text-align: justify !important;
+  }
+
+  /* TEXT UPPERCASE Texto em Maiusculo*/
+  &__uppercase {
+    text-transform: uppercase !important;
+  }
+  /* TEXT INDENT ESCONDE A FONTE NO ELEMENTO */
+  &__indent {
+    text-indent: -9999px !important;
+  }
+
+  &__shadow {
+    text-shadow: 1px 1px 0 #ccc !important;
+  }
+
+  &__line-height {
+    line-height: 1;
+
+    &--small{
+      line-height: 1.75;
+    }
+    &--medium{
+      line-height: 2;
+    }
+    &--larg{
+      line-height: 2.75;
+    }
+  }
+
+  &__letter-spacing{
+    //0.5px
+    letter-spacing: 0.031em;
+
+    &--small {
+      letter-spacing: 40px;
+    }
+    &--medium {
+      letter-spacing: 80px;
+    }
+    &--large {
+      letter-spacing: 100px;
+    
+    }
+  }
+
+  &__opacity{
+    opacity: 0.15;
+    &--small {
+      opacity: 0.25;
+    }
+    &--medium {
+      opacity: 0.35;
+    }
+    &--large {
+      opacity: 0.45;
+    }
+  }
+  
+  &__link {
+    text-decoration: underline; 
+    padding: 0.5em 0em;
+
+    &--padding-left {
+      padding-left: 27px;
+    }
+
+    &--padding-right {
+      padding-right: 27px;
+    }
+  }
+  
+}

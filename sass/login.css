@@ -1,0 +1,22 @@
+.logo-default {
+  background-color: #000;
+  background-image: url("../img/logotipo-preto.png");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 53px;
+  display: block;
+  cursor: pointer;
+  margin: 1.5em 0em; }
+
+.logo-default--white {
+  background-color: #000;
+  background-image: url("../img/logotipo-branco.png"); }
+
+.logo-default__link {
+  position: absolute;
+  width: 210px;
+  height: 60px;
+  background-image: url(../img/avatar.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto 76%; }

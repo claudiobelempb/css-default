@@ -1,0 +1,45 @@
+/*IMPORTANDO ABSTRACT*/
+@import 'abstracts/_color-default.scss';
+@import 'abstracts/_background-default';
+@import 'abstracts/breakpoints';
+
+/*IMPORTANDO BASE*/
+@import 'base/_reset-default.scss';
+@import 'base/_my-reset.scss';
+@import 'base/_font-default.scss';
+
+/*IMPORTANDO LAYOUT*/
+@import 'layout/_header-default';
+@import 'layout/_section-default';
+@import 'layout/acticle-default';
+@import 'layout/_footer-default';
+
+/*IMPORTANDO COMPONENTS*/
+@import 'components/brand-default';
+@import 'components/map-default';
+@import 'components/_text-default';
+@import 'components/title-default';
+@import 'components/_form-default';
+@import 'components/_pagination-default';
+@import 'components/map-default';
+@import 'components/nav-default';
+@import 'components/_table-default';
+@import 'components/_alert-default';
+@import 'components/box-default';
+@import 'components/button-default';
+@import 'components/share-default';
+@import 'components/video-default';
+@import 'components/shoticon-default';
+@import 'components/helpers-default';
+@import 'components/audio-default';
+@import 'components/image-default';
+
+
+/*IMPORTANDO PAGES*/
+@import 'pages/_home';
+@import 'pages/_contact';
+
+/*IMPORTANDO THEMES*/
+
+
+/*IMPORTANDO VENDORS*/

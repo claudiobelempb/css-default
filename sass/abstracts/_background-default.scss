@@ -1,0 +1,91 @@
+/*PALETA*/
+/*BACKGROUND*/
+.background-default {
+  background-color: #fbfbfb;
+  color: #333;
+  &__white {
+    background-color: #fbfbfb;
+    color: #333;
+  }
+  &__gray {
+    background-color: #272525;
+    color: #fff;
+
+    &--light {
+      background-color: #b4ad8b;
+      color: #333;
+    }
+
+    &--border {
+      background: #f2f2f2;
+      border-top: 1px solid #e4e4e4;
+    }
+  }
+
+  &__light {
+    background-color: #e6e4d9;
+    color: #444;
+  }
+  &__blue {
+    background-color: #34495e;
+    color: #fff;
+
+    &--light {
+      background-color: #ccd8d1;
+      color: #444;
+    }
+  }
+
+  &__orange {
+    background-color: #e16f4d;
+    color: #fff;
+  }
+  &__black {
+    background-color: #000;
+    color: #fff;
+  }
+  &__red {
+    background-color: #9e2b1d;
+    color: #fff;
+  }
+
+  &__image {
+    &--header {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 100%;
+    }
+    &--footer {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+
+/* BACKGROUND IMG */
+.background-image {
+  
+  &__body {
+    background-image: url("../img/bg-body.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+  &__header {
+    background-image: url("../img/bg-body.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+  }
+  &__footer {
+    background-image: url("../img/bg-body.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    
+  }
+}

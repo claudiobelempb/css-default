@@ -1,0 +1,210 @@
+/*SHORT ICONS*/
+.shoticon-default {
+  background-repeat: no-repeat;
+  position: relative;
+
+  &__left {
+    background-position: center left;
+  }
+  &__right {
+    background-position: center right;
+  }
+
+  &__title {
+    padding-left: 60px;
+  }
+  &__subtitle {
+    padding-left: 40px;
+  }
+
+  &__facebook {
+    background-image: url(boot/social/facebook.png);
+    padding-left: 30px;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: auto 96%;
+  }
+  &__google {
+    background-image: url(../css/boot/social/google.png);
+  }
+  &__twitter {
+    background-image: url(boot/social/twitter.png);
+  }
+
+  &__config {
+    background-image: url(boot/icons/config.png);
+  }
+  &__email {
+    background-image: url(boot/icons/envelope.png);
+    &--relative {
+      position: relative;
+      top: -4px;
+    }
+    &--absolute {
+      position: absolute;
+      height: 20px;
+      bottom: 20px;
+      left: 10px;
+    }
+  }
+  &__section {
+    background-image: url(boot/icons/section.png);
+  }
+  &__mouse {
+    background-image: url(boot/icons/icone-mouse.png);
+  }
+  &__olho {
+    background-image: url(boot/icons/icone-olho.png);
+  }
+  &__abg {
+    background-image: url(boot/icons/shopping-cart.png);
+  }
+  &__user {
+    background-image: url(boot/icons/user.png);
+  }
+  &__aspas {
+    background-image: url(boot/icons//aspas.png);
+    &--relative {
+      position: relative;
+      top: -4px;
+    }
+    &--absolute {
+      position: absolute;
+      top: -4px;
+    }
+  }
+  &__favicon {
+    background-image: url(../../css/boot/icons/favicon.png);
+  }
+
+  &__itunes {
+    background-image: url(boot/icons/retailers.png);
+    background-position: 0px 0px;
+    width: 105px;
+    display: block;
+    margin-left: 150px;
+
+    &:hover {
+      background-position: bottom left;
+      border: none;
+    }
+  }
+  &__applemusic {
+    background-image: url(boot/icons/retailers.png);
+    background-position: -124px 0px;
+    width: 140px;
+    display: block;
+    margin-right: 85px;
+    &:hover {
+      background-position: -124px 45px;
+      border: none;
+    }
+  }
+  &__listen {
+    background-image: url(boot/icons/retailers.png);
+    background-position: -260px 0px;
+    width: 105px;
+    display: block;
+    margin-left: 30px;
+    &:hover {
+      background-position: -260px -45px;
+      border: none;
+    }
+  }
+  &__spotify {
+    background-image: url(boot/icons/retailers.png);
+    background-position: -360px 0px;
+    width: 105px;
+    display: block;
+    &:hover {
+      background-position: -360px -45px;
+      border: none;
+    }
+  }
+  &__gp {
+    background-image: url(boot/icons/retailers.png);
+    background-position: -480px 0px;
+    width: 120px;
+    display: block;
+    &:hover {
+      background-position: -480px -45px;
+      border: none;
+    }
+  }
+  &__amazon {
+    background-image: url(boot/icons/retailers.png);
+    background-position: -600px 0px;
+    width: 105px;
+    display: block;
+    &:hover {
+      background-position: -600px -45px;
+      border: none;
+    }
+  }
+
+  &__nav {
+    background-image: url(boot/icons/i1_1967ca6a.png);
+    background-position: -137px -42px;
+    width: 20px;
+    height: 20px;
+    display: block;
+
+    &--relative {
+      position: relative;
+      top: -4px;
+    }
+    &--absolute {
+      position: absolute;
+      top: 23px;
+      right: 146px;
+    }
+
+    // &:hover {
+    //   background-position: -600px -45px;
+    //   border: none;
+    // }
+  }
+  &__keyboard {
+    background-image: url(boot/icons/keyboard.png);
+    background-size: 100%;
+    width: 19px;
+    height: 11px;
+
+    &--relative {
+      position: relative;
+      top: -4px;
+    }
+    &--absolute {
+      position: absolute;
+      top: -28px;
+      right: 52px;
+    }
+
+    // &:hover {
+    //   background-position: -600px -45px;
+    //   border: none;
+    // }
+  }
+  &__microphone {
+    background-image: url(boot/icons/microphone.png);
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+
+    &--relative {
+      position: relative;
+      top: -4px;
+    }
+    &--absolute {
+      position: absolute;
+      top: -37px;
+      right: 12px;
+      
+    }
+
+    // &:hover {
+    //   background-position: -600px -45px;
+    //   border: none;
+    // }
+  }
+}

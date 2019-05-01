@@ -1,0 +1,79 @@
+/*MY RESET*/
+body {
+  background: #d0d6d9;
+  color: #000;
+}
+// h1 {
+//   font-size: 2em;
+//   font-weight: 300;
+//   margin: 0px 0px 1em;
+// }
+// h2 {
+//   font-size: 1.8em;
+//   font-weight: 400;
+//   margin: 0px 0px 1em;
+// }
+// h3 {
+//   font-size: 1.5em;
+//   font-weight: 500;
+//   margin: 0px 0px 1em;
+// }
+b,
+strong {
+  font-weight: bold;
+}
+mark {
+  padding: 5px 10px;
+  background-color: #eee;
+}
+.ul-alternate {
+  width: 100%;
+}
+.ul-alternate li {
+  border-bottom: 2px solid #d8d8d8;
+}
+.ul-alternate li:last-child {
+  border: 0px;
+}
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+small {
+  font-size: 0.75em;
+  color: #555;
+}
+/* a{text-decoration: none;} */
+a {
+  text-decoration: none;
+  transition: color 0.3s linear, border 0.3s linear;
+}
+a img {
+  border: 0;
+}
+hr {
+  border-bottom: 1px #555 dotted;
+  margin: 40px 0px 40px 0px;
+}
+sub,
+sup {
+  font-size: 0.75em;
+}
+blockquote {
+  border-left: 5px solid;
+  color: #e0e0e0;
+  margin: 2em 0px;
+  padding: 0.5em 0em 0.5em 1.5em;
+}
+code {
+  background: #f7f7f7;
+  border: 2px solid #efefef;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  padding: 0.25em 0.65em;
+}
+pre code {
+  display: block;
+}

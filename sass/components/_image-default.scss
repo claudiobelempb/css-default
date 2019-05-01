@@ -1,0 +1,92 @@
+.image-default {
+  margin: 0 auto;
+  display: block;
+  padding: 0.5em 0em;
+  width: 100%;
+
+  &__small {
+    &--percent {
+      width: 15%;
+    }
+
+    &--pixel {
+      width: 272px;
+      height: 201px;
+      padding: 109px 0px 0px 0px;
+    }
+  }
+  &__medium {
+    width: 50%;
+  }
+  &__large {
+    width: 100%;
+  }
+
+
+  @media (min-width: $breakpoints-sm__min) and (max-width: $breakpoints-sm__max) {
+    &__small {
+      max-width: 100%;
+    }
+
+    &__medium {
+      max-width: 100%;
+    }
+
+    &__large {
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: $breakpoints-md__min) and (max-width: $breakpoints-md__max) {
+    &__small {
+      max-width: 30%;
+    }
+
+    &__medium {
+      max-width: 70%;
+    }
+
+    &__large {
+      max-width: 100%;
+    }
+  }
+  @media (min-width: $breakpoints-lg__min) and (max-width: $breakpoints-lg__max) {
+    &__small {
+      max-width: 30%;
+    }
+
+    &__medium {
+      max-width: 70%;
+    }
+
+    &__large {
+      max-width: 100%;
+    }
+  }
+  @media (min-width: $breakpoints-xl__min) and (max-width: $breakpoints-xl__max) {
+    &__small {
+      max-width: 15%;
+    }
+
+    &__medium {
+      max-width: 100%;
+    }
+
+    &__large {
+      max-width: 100%;
+    }
+  }
+  @media (min-width: $breakpoints-xx__min) and (max-width: $breakpoints-xx__max) {
+    &__small {
+      max-width: 15%;
+    }
+
+    &__medium {
+      max-width: 100%;
+    }
+
+    &__large {
+      max-width: 100%;
+    }
+  }
+}

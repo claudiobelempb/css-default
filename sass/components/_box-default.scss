@@ -1,0 +1,220 @@
+/*CONTAINER*/
+.container-default {
+  float: left;
+  width: 100%;
+  // @media (min-width: $breakpoints-sm__min) and (max-width: $breakpoints-sm__max) {
+  //   background-color: red;
+  // }
+
+  // @media (min-width: $breakpoints-md__min) and (max-width: $breakpoints-md__max) {
+  //   background-color: green;
+  // }
+  // @media (min-width: $breakpoints-lg__min) and (max-width: $breakpoints-lg__min) {
+  //   background-color: green;
+  // }
+  // @media (min-width: $breakpoints-xl__min) and (max-width: $breakpoints-xl__max) {
+  //   background-color: orange;
+  // }
+  // @media (min-width: $breakpoints-xx__min) and (max-width: $breakpoints-xx__max) {
+  //   background-color: blue;
+  // }
+}
+
+.content-default {
+  width: 90%;
+  margin: 0 5%;
+  float: left;
+  position: relative;
+  &__page {
+    padding: 60px 0;
+  }
+
+  // @media (min-width: $breakpoints-sm__min) and (max-width: $breakpoints-sm__max) {
+  //   background-color: red;
+  // }
+
+  // @media (min-width: $breakpoints-md__min) and (max-width: $breakpoints-md__max) {
+  //   background-color: green;
+  // }
+  // @media (min-width: $breakpoints-lg__min) and (max-width: $breakpoints-lg__min) {
+  //   background-color: green;
+  // }
+  // @media (min-width: $breakpoints-xl__min) and (max-width: $breakpoints-xl__max) {
+  //   background-color: orange;
+  // }
+  // @media (min-width: $breakpoints-xx__min) and (max-width: $breakpoints-xx__max) {
+  //   background-color: blue;
+  // }
+}
+.sidebar-default {
+  width: 65%;
+  margin-left: 35%;
+  padding: 120px 0px 70px 0px;
+
+  &__left {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 35%;
+  }
+  &__right {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 35%;
+  }
+  &__content {
+    width: 100%;
+    padding: 120px 40px 70px 40px;
+  }
+}
+
+/*BOX*/
+.box-default {
+  width: 100%;
+  //float: left;
+  max-width: 100%;
+  // margin-right: 5%;
+  padding: 10px 0px;
+  float: left;
+
+  &__line {
+    float: left;
+    width: 100%;
+  }
+
+  &__small {
+    // @media (min-width: $breakpoints-sm__min) and (max-width: $breakpoints-sm__max) {
+    //   width: 100%;
+    // }
+
+    // @media (min-width: $breakpoints-md__min) and (max-width: $breakpoints-md__max) {
+    //   width: 20.75%;
+    //   margin-right: 5%;
+    // }
+    // @media (min-width: $breakpoints-lg__min) and (max-width: $breakpoints-lg__max) {
+    //   width: 20.75%;
+    //   margin-right: 5%;
+    // }
+    // @media (min-width: $breakpoints-xl__min) and (max-width: $breakpoints-xl__max) {
+    //   width: 20.75%;
+    //   margin-right: 5%;
+    // }
+    // @media (min-width: $breakpoints-xx__min) and (max-width: $breakpoints-xx__max) {
+    //   width: 20.75%;
+    //   margin-right: 5%;
+    // }
+
+    // &:nth-child(4n + 1) {
+    //   margin-right: 0;
+    // }
+
+    &--min {
+      width: 14.75%;
+      margin-right: 2%;
+      float: left;
+
+      &:nth-child(5n + 1) {
+        margin-right: 0;
+      }
+    }
+
+    &--max {
+      width: 17.75%;
+      margin-right: 2%;
+      float: left;
+
+      &:nth-child(6n + 1) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__medium {
+    width: 33%;
+  
+    float: left;
+    @media (min-width: $breakpoints-sm__min) and (max-width: $breakpoints-sm__max) {
+       width: 100%;
+    }
+
+    // @media (min-width: $breakpoints-md__min) and (max-width: $breakpoints-md__max) {
+    //   width: 100%;
+    // }
+    @media (min-width: $breakpoints-lg__min) and (max-width: $breakpoints-lg__max) {
+       width: 30%;
+       margin: auto 35%;
+     }
+
+    @media (min-width: $breakpoints-xl__min) and (max-width: $breakpoints-xl__max) {
+      width: 30%;
+      margin: auto 35%;
+      float: left;
+    }
+    @media (min-width: $breakpoints-xx__min) and (max-width: $breakpoints-xx__max) {
+      width: 30%;
+      margin: auto 35%;
+
+    }
+
+    // &:nth-child(3n + 1) {
+    //   margin-right: 0;
+    // }
+  }
+
+  &__large {
+    width: 48.5%;
+    margin-right: 3%;
+
+    @media (min-width: $breakpoints-sm__min) and (max-width: $breakpoints-sm__max) {
+      width: 100%;
+      text-align: center !important;
+    }
+
+    // @media (min-width: $breakpoints-md__min) and (max-width: $breakpoints-md__max) {
+    //   width: 100%;
+    // }
+    // @media (min-width: $breakpoints-lg__min) and (max-width: $breakpoints-lg__min) {
+    //   width: 48.5%;
+    //   margin-right: 3%;
+    // }
+    // @media (min-width: $breakpoints-xl__min) and (max-width: $breakpoints-xl__max) {
+    //   width: 48.5%;
+    //   margin-right: 3%;
+    // }
+    // @media (min-width: $breakpoints-xx__min) and (max-width: $breakpoints-xx__max) {
+    //   width: 48.5%;
+    //   margin-right: 3%;
+    // }
+
+    &:nth-child(2n + 2) {
+      margin-right: 0;
+    }
+  }
+
+  &__full {
+    width: 100%;
+    margin: 0;
+
+    @media (min-width: $breakpoints-sm__min) and (max-width: $breakpoints-sm__max) {
+      width: 100%;
+      text-align: center !important;
+    }
+  }
+  &__1152 {
+    width: 75%;
+  }
+  &__1000 {
+    width: 70%;
+  }
+
+  /* Para três BOX */
+  &__forthree {
+    width: 64%;
+  }
+  &__forthree--small {
+    width: 30%;
+  }
+}

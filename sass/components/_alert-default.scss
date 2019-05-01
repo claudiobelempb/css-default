@@ -1,0 +1,33 @@
+/*TRIGGER*/
+.alert-default {
+  float: left;
+  width: 100%;
+  padding: 25px;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+
+  &--bottom {
+    margin: 30px 0 0 0;
+  }
+
+  &--link {
+    margin: 30px 0 0 0;
+  }
+
+  &__success {
+    background-color: #accc9a;
+    color: #6b7f60;
+  }
+  &__info {
+    background-color: #9ab7cc;
+    color: #60727f;
+  }
+  &__warning {
+    background-color: #c6b247;
+    color: #776b2b;
+  }
+  &__danger {
+    background-color: #e69f9f;
+    color: #996a6a;
+  }
+}

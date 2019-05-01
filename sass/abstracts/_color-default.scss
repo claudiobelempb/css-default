@@ -1,0 +1,228 @@
+/*COLOR*/
+$color-black: #000000;
+$color-black__light: #333333;
+$color-black__rgba: rgba(0, 0, 0, 0.54);
+$color-black__border--bottom: 1px rgba(255, 255, 255, 0.5) dotted;
+
+$color-white: #ffffff;
+$color-white__light: #fbfbfb;
+$color-white__rgba: rgba(255, 255, 255, 0.5);
+$color-white__border--bottom: 1px rgba(255, 255, 255, 0.5) dotted;
+
+$color-red: #9e2b1d;
+$color-red--light: #f44242;
+$color-red__rgba: rgba(255, 255, 255, 0.5);
+$color-red__border--bottom: 1px rgba(255, 255, 255, 0.5) dotted;
+
+$color-gray: #222121;
+$color-gray__light: #adadad;
+$color-gray__rgba: rgba(255, 255, 255, 0.5);
+$color-gray__border--bottom: 1px rgba(255, 255, 255, 0.5) dotted;
+
+$color-green: #49bf9d;
+$color-green__light: #49bf9d;
+$color-green__rgba: rgba(255, 255, 255, 0.5);
+$color-green__border--bottom: 1px rgba(255, 255, 255, 0.5) dotted;
+
+$color-blue: #4285f4;
+$color-blue__light: #7198d1;
+$color-blue__rgba: rgba(255, 255, 255, 0.5);
+$color-blue__border--bottom: 1px rgba(255, 255, 255, 0.5) dotted;
+
+.color-default{
+
+  &__black {
+
+    color: $color-black;
+  
+    &--border {
+      border: $color-black__border--bottom;
+  
+      &--bottom {
+        border-bottom: $color-black__border--bottom;
+      }
+    }
+  
+    &--light {
+      color: $color-black__light;
+    }
+  
+    &--rgba {
+      color: $color-black__rgba;
+    }
+  
+    &:hover {
+      border: 0px;
+      color: $color-black__light;
+    }
+  }
+
+  &__white {
+    color: $color-white;
+  
+    &--border {
+      border: $color-white__border--bottom;
+  
+      &--bottom {
+        border-bottom: $color-white__border--bottom;
+      }
+    }
+  
+    &--light {
+      color: $color-white__light;
+    }
+  
+    &--rgba {
+      color: $color-white__rgba;
+    }
+  
+    &:hover {
+      border: 0px;
+      color: $color-red;
+    }
+  }
+
+  &__red {
+    color: $color-red;
+  
+    &--border {
+      border: $color-red__border--bottom;
+  
+      &--bottom {
+        border-bottom: $color-red__border--bottom;
+      }
+    }
+  
+    &--light {
+      color: $color-red__light;
+    }
+  
+    &__rgba {
+      color: $color-red__rgba;
+    }
+  
+    // &:hover {
+    //   border: 0px;
+    //   color: $color-red__light;
+    // }
+  }
+  
+  &__gray {
+    color: $color-gray;
+  
+    &--border {
+      border: $color-gray__border--bottom;
+  
+      &--bottom {
+        border-bottom: $color-gray__border--bottom;
+      }
+    }
+  
+    &--light {
+      color: $color-gray__light;
+    }
+  
+    &--rgba {
+      color: $color-gray__rgba;
+    }
+  
+    &__link {
+      color: $color-gray;
+  
+      &--border {
+        border: $color-gray__border--bottom;
+  
+        &--bottom {
+          border-bottom: $color-gray__border--bottom;
+        }
+      }
+  
+      &--light {
+        color: $color-gray__light;
+      }
+  
+      &--rgba {
+        color: $color-gray__rgba;
+      }
+  
+      &:hover {
+        border: 0px;
+        color: $color-gray__light;
+      }
+    }
+  }
+  
+  &__green {
+    color: $color-green;
+  
+    &--border {
+      border: $color-green__border--bottom;
+  
+      &--bottom {
+        border-bottom: $color-green__border--bottom;
+      }
+    }
+  
+    &--light {
+      color: $color-green__light;
+    }
+  
+    &--rgba {
+      color: $color-green__rgba;
+    }
+  
+    &:hover {
+      border: 0px;
+      color: $color-green__light;
+    }
+  }
+  
+  &__blue {
+    color: $color-blue;
+  
+    &--border {
+      border: $color-blue__border--bottom;
+  
+      &--bottom {
+        border-bottom: $color-blue__border--bottom;
+      }
+    }
+  
+    &--light {
+      color: $color-blue__light;
+    }
+  
+    &--rgba {
+      color: $color-blue__rgba;
+    }
+  
+    &--link {
+      color: $color-blue;
+  
+      &__border {
+        border: $color-blue__border--bottom;
+  
+        &--bottom {
+          border-bottom: $color-blue__border--bottom;
+        }
+      }
+  
+      &__light {
+        color: $color-blue__light;
+      }
+  
+      &__rgba {
+        color: $color-blue__rgba;
+      }
+  
+      &:hover {
+        border: 0px;
+        color: $color-blue__light;
+      }
+    }
+  }
+}
+
+
+
+

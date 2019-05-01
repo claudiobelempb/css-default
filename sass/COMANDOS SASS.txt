@@ -1,0 +1,9 @@
+node-sass style.scss ../css/style.css
+
+node-sass -w style.scss ../css/style.css
+
+node-sass -w login.scss login.css
+
+node-sass --output-style compressed style.scss style.css
+
+node-sass -w --output-style compressed style.scss style.css

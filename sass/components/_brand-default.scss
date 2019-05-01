@@ -1,0 +1,92 @@
+/*BRAND DEFAULT*/
+
+.brand-default {
+  &__header {
+    &--image {
+      position: relative;
+      // width: 242px;
+      // height: 60px;
+      top: 30px;
+
+      &--link {
+        position: absolute;
+        width: 210px;
+        height: 60px;
+        background-image: url(../img/logo-ws-html5.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: auto 76%;
+
+        &:hover {
+          background-color: #222;
+        }
+      }
+    }
+
+    &--background {
+      /* background-color: #000000; */
+      background-image: url("../img/brand.png");
+      background-repeat: no-repeat;
+      background-size: 85%;
+      background-position: center;
+      height: 39px;
+      cursor: pointer;
+      display: block;
+      float: left;
+
+      &--link {
+        position: absolute;
+        width: 210px;
+        height: 60px;
+        background-image: url(../img/avatar.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: auto 76%;
+      }
+    }
+  }
+
+  &__footer {
+    &--image {
+      position: relative;
+      width: 242px;
+      height: 60px;
+
+      &--link {
+        position: absolute;
+        width: 210px;
+        height: 60px;
+        background-image: url(../img/logo-epic.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: auto 76%;
+
+        &:hover {
+          background-color: #222;
+        }
+      }
+    }
+
+    &--background {
+      /* background-color: #000000; */
+      background-image: url("../img/brand.png");
+      background-repeat: no-repeat;
+      background-size: 85%;
+      background-position: center;
+      height: 39px;
+      cursor: pointer;
+      display: block;
+      float: left;
+
+      &--link {
+        position: absolute;
+        width: 210px;
+        height: 60px;
+        background-image: url(../img/avatar.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: auto 76%;
+      }
+    }
+  }
+}

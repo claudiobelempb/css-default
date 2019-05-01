@@ -1,0 +1,75 @@
+/*SHAREBOX*/
+.share-default {
+  float: left;
+  width: 100%;
+  padding: 25px 0;
+  text-align: center;
+
+  &t__item {
+    display: inline-block;
+    background: #ccc;
+    margin: 0 15px;
+    background-position: left 10px center;
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+  }
+  &__link {
+    float: left;
+    padding: 10px 20px 10px 40px;
+    color: #fff !important;
+  }
+  &__link:hover {
+    text-decoration: none !important;
+  }
+  &__count {
+    float: right;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    color: #fff;
+  }
+
+  &__facebook {
+    background-image: url(boot/social/facebook_pix.png);
+    background-color: #45619d;
+  }
+  &__facebook:hover {
+    background-color: #778fc4;
+  }
+  &__google {
+    background-image: url(boot/social/google_pix.png);
+    background-color: #dd4b39;
+  }
+  &__google:hover {
+    background-color: #e77d72;
+  }
+  &__twitter {
+    background-image: url(boot/social/twitter_pix.png);
+    background-color: #55acee;
+  }
+  &__twitter:hover {
+    background-color: #9ed0f5;
+  }
+}
+
+.singleshare {
+  background: #333;
+
+  &__item {
+    max-width: 28%;
+    margin: 0 10px;
+  }
+  & span {
+    display: none;
+  }
+}
+
+/*FB LIKE BOX*/
+.fb-like-box {
+  padding: 10px 10px 20px 10px;
+
+  &,
+  & span,
+  & span iframe[style] {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,45 @@
+/* FOOTER */
+.footer-default {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  max-width: 100%;
+  
+  &__title {
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  &__list {
+      margin: 0px;
+  }
+
+  &__item {
+    margin-bottom: 3px;
+    padding: 3px 0px;
+  }
+
+  &__link {
+    color: #cf4823;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__top {
+    padding: 15px 0px;
+  }
+
+  &__bottom {
+    text-align: center;
+    padding: 15px;
+  }
+
+  &__image {
+    background-image: url("../img/rodape-bg-md.jpg");
+    background-size: cover;
+  }
+}

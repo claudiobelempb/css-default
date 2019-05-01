@@ -1,0 +1,22 @@
+/*PAGINAÇÃO*/
+.paginato-default {
+  float: left;
+  width: 100%;
+  text-align: center;
+
+  &__list {
+    text-align: left;
+  }
+  &__item {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 1.1em;
+  }
+  &__link {
+    color: $color-white;
+  }
+  &__link:hover {
+    text-decoration: underline;
+  }
+}
+

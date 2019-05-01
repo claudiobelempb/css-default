@@ -1,0 +1,103 @@
+.header-default {
+  max-width: 580px;
+  position: relative;
+  left: 507px;
+
+  &__title {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 20px 0px 20px 0px;
+
+    &--after {
+      &::after {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 3px;
+        background-color: #f00;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+    }
+
+    strong {
+      font-size: 1.5em;
+      color: #fff;
+    }
+  }
+
+  &__home {
+    padding: 50px 0px;
+    text-align: center;
+
+    h2 {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    &__paragraph {
+    }
+    &__link {
+      display: none;
+      color: #fff;
+    }
+  }
+
+  /* HEADER SERVIÇOS */
+  &__servicos {
+    text-align: center;
+    color: #585858;
+
+    &__paragraph {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  }
+
+  &__paragraph {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  &__link {
+    color: inherit;
+  }
+
+  &__image {
+    background-image: url(../img/overlay.png), url(../img/bg.jpg);
+    background-position: left top;
+    background-size: auto, cover;
+    text-align: right;
+
+    &--header {
+      background-color: #dd3f3f;
+      color: #fff;
+      background-image: url("../img/cabecalho-pagina-bg.jpg");
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    &--home {
+      background-color: #000;
+      color: #fff;
+      background-image: url("../img/cabecalho-home-bg.jpg");
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &--small {
+      width: 85px;
+      height: 85px;
+    }
+
+    
+  }
+
+  &__banner {
+    margin-left: 30px;
+    margin-bottom: 40px;
+  }
+}
